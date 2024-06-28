@@ -68,7 +68,6 @@ function CartItem(item) {
         cart.splice(idx,1)
         basket.remove()
         total_view.innerHTML = cart.length
-        calc_total_amount()
 
     }
     function calc_total_amount(param) {
